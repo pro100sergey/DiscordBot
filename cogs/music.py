@@ -10,7 +10,7 @@ import lavalink
 from discord.ext import commands
 
 url_rx = re.compile('https?:\\/\\/(?:www\\.)?.+')  # noqa: W605
-TOKEN = "NTYxMTQyNDc3NDE1Nzc2MjU2.XKYmQQ.z-BpNSX80qSuHI6ped6-vhQe6hU"
+TOKEN = ""
 
 class Music(commands.Cog):
     def __init__(self, bot):
